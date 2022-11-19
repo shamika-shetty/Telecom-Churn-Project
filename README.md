@@ -7,7 +7,8 @@ Customer churn is a big problem for telecommunications companies. Indeed , their
 ## Requirements
 
 * python
-* pandas 
+* pandas
+* sklearn
 * numpy 
 * AutoViz(Automated EDA)
 * pickle(save model)
