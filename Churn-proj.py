@@ -47,7 +47,7 @@ df = user_input_features()
 st.subheader('USER INPUT PARAMETERS')
 st.write(df)
 
-dataset = pd.read_csv("C:\\Churn.csv")
+dataset = pd.read_csv("C:\\Users\\Shamikarani\\Downloads\\Churn.csv")
 dataset.drop(['evening_calls','night_calls'],axis=1,inplace =True)
 
 X = dataset.iloc[:,0:16]
